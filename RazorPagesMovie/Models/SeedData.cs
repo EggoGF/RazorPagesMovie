@@ -57,6 +57,15 @@ namespace RazorPagesMovie.Models
                         Genre = "Western",
                         Price = 3.99M,
                         Rating = "NA"
+                    },
+
+                    new Movie
+                    {
+                        Title = "Aliens",
+                        ReleaseDate = DateTime.Parse("1986-7-18"),
+                        Genre = "Action",
+                        Price = 9.99M,
+                        Rating = "R"
                     }
                 );
                 context.SaveChanges();
